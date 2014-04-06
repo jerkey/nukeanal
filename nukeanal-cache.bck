@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD7983
+D DA Converter
+K DAC CNA
+F adc-dac/ad7533.pdf
+$ENDCMP
+#
+#End Doc Library
