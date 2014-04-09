@@ -12,12 +12,6 @@ K DAC CNA
 F adc-dac/ad7533.pdf
 $ENDCMP
 #
-$CMP LE33
-D Linear Regulator +5V
-K POWER REGUL
-F regulator\lm78xx.pdf
-$ENDCMP
-#
 $CMP LE33-SO8
 D Linear Regulator +5V
 K POWER REGUL
@@ -32,6 +26,12 @@ $ENDCMP
 #
 $CMP LM7812
 D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MIC5219YM5TR
+D Linear Regulator +5V
 K POWER REGUL
 F regulator\lm78xx.pdf
 $ENDCMP
