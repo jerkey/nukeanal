@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC74
+D Dual D FlipFlop, Set & Reset
+K TTL DFF
+F 74xx/74hc_hct74.pdf
+$ENDCMP
+#
+$CMP 74HC74j
+D Dual D FlipFlop, Set & Reset
+K TTL DFF
+F 74xx/74hc_hct74.pdf
+$ENDCMP
+#
+$CMP 74LS74
+D Dual D FlipFlop, Set & Reset
+K TTL DFF
+F 74xx/74hc_hct74.pdf
+$ENDCMP
+#
 $CMP 78L05
 D Linear Regulator +5V
 K POWER REGUL
@@ -25,12 +43,6 @@ D Diode simple
 K DEV DIODE
 $ENDCMP
 #
-$CMP LE33-SO8
-D Linear Regulator +5V
-K POWER REGUL
-F regulator\lm78xx.pdf
-$ENDCMP
-#
 $CMP LM7805
 D Linear Regulator +5V
 K POWER REGUL
@@ -39,6 +51,12 @@ $ENDCMP
 #
 $CMP LM7812
 D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MIC5209
+D Linear Regulator +5V
 K POWER REGUL
 F regulator\lm78xx.pdf
 $ENDCMP
