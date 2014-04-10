@@ -12,6 +12,19 @@ K DAC CNA
 F adc-dac/ad7533.pdf
 $ENDCMP
 #
+$CMP CAPAPOL
+D Condensateur polarise
+$ENDCMP
+#
+$CMP CP
+D Condensateur polarise
+$ENDCMP
+#
+$CMP DPAD1
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
 $CMP LE33-SO8
 D Linear Regulator +5V
 K POWER REGUL
